@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chynetha Felder Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #FAF3E0;
+      color: #3B2F2F;
+      padding: 2rem;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: #3B2F2F;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #A0522D;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    header h1 {
+      font-size: 2.75rem;
+      color: #5C4033;
+    }
+    header p {
+      font-style: italic;
+      color: #7B4B2A;
+      font-size: 1.2rem;
+    }
+    section {
+      max-width: 720px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      border: 1px solid #A67C52;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .about, .projects, .techmama {
+      background-color: #E6D3B3;
+    }
+    .skills {
+      background-color: #FFF8F0;
+      border-color: #C9A66B;
+    }
+    h2 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+    li {
+      margin-bottom: 0.75rem;
+    }
+    .contact {
+      text-align: center;
+      border: none;
+      background: none;
+      box-shadow: none;
+    }
+    .contact h2 {
+      color: #5C4033;
+    }
+    .contact a {
+      color: #7B4B2A;
+      text-decoration: underline;
+    }
+    .buttons {
+      margin-top: 1rem;
+    }
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.25rem;
+      margin: 0.5rem;
+      border: none;
+      border-radius: 0.5rem;
+      background-color: #7B4B2A;
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #5C4033;
+    }
+    .book {
+      background-color: #A0522D;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#techmama">Tech Mama</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Chynetha Felder</h1>
+    <p>Reimagining what’s possible at the intersection of motherhood, innovation, and impact.</p>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I’m Chynetha Felder — an IT specialist, tech entrepreneur, and proud mom. I help small businesses and teams modernize their cloud environments while building a legacy grounded in purpose and impact.</p>
+    <p>Through <strong>Nova Insight Solutions</strong> and <strong>HeirRise</strong>, I blend technical strategy with community empowerment — because I believe technology should liberate, not overwhelm.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills & Certifications</h2>
+    <ul>
+      <li><strong>Cloud & Security:</strong> Azure, M365, Networking, Storage, AD Hardening</li>
+      <li><strong>Automation & Support:</strong> Autopilot Imaging, PowerShell, ServiceNow</li>
+      <li><strong>Certifications:</strong> AZ-900 (Completed), SC-900 + Security+ (In Progress)</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Nova Insight Solutions:</strong> Cloud consulting for underrepresented small businesses</li>
+      <li><strong>HeirRise: The Movement:</strong> STEM and legacy empowerment for Black families</li>
+    </ul>
+  </section>
+
+  <section id="techmama" class="techmama">
+    <h2>Tech Mama</h2>
+    <p>As a “Tech Mama,” I lead with clarity, compassion, and grit. I’m not just managing systems — I’m managing life. And I’m building a future where my daughter sees technology as a tool for liberation, not limitation.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Let’s Connect</h2>
+    <p>Email: <a href="mailto:you@email.com">you@email.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+
+    <div class="buttons">
+      <a href="ChynethaFelder_Resume.pdf" class="button" download>Download Resume</a>
+      <a href="https://calendly.com/yourusername" target="_blank" class="button book">Book a Call</a>
+    </div>
+  </section>
+
+</body>
+</html>
